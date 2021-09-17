@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/WDGIT/static/css/main.f03911d2.chunk.css",
+    "main.js": "/WDGIT/static/js/main.96c83b83.chunk.js",
+    "main.js.map": "/WDGIT/static/js/main.96c83b83.chunk.js.map",
+    "runtime-main.js": "/WDGIT/static/js/runtime-main.e864b712.js",
+    "runtime-main.js.map": "/WDGIT/static/js/runtime-main.e864b712.js.map",
+    "static/js/2.fd0a3c20.chunk.js": "/WDGIT/static/js/2.fd0a3c20.chunk.js",
+    "static/js/2.fd0a3c20.chunk.js.map": "/WDGIT/static/js/2.fd0a3c20.chunk.js.map",
+    "index.html": "/WDGIT/index.html",
+    "static/css/main.f03911d2.chunk.css.map": "/WDGIT/static/css/main.f03911d2.chunk.css.map",
+    "static/js/2.fd0a3c20.chunk.js.LICENSE.txt": "/WDGIT/static/js/2.fd0a3c20.chunk.js.LICENSE.txt",
+    "static/media/Logo.78314ca1.png": "/WDGIT/static/media/Logo.78314ca1.png",
+    "static/media/girl1.922ba24f.png": "/WDGIT/static/media/girl1.922ba24f.png",
+    "static/media/girl2.702d54e3.png": "/WDGIT/static/media/girl2.702d54e3.png",
+    "static/media/summary.4d821fb8.jpg": "/WDGIT/static/media/summary.4d821fb8.jpg",
+    "static/media/tarjeta.20c1108e.png": "/WDGIT/static/media/tarjeta.20c1108e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e864b712.js",
+    "static/js/2.fd0a3c20.chunk.js",
+    "static/css/main.f03911d2.chunk.css",
+    "static/js/main.96c83b83.chunk.js"
+  ]
+}
