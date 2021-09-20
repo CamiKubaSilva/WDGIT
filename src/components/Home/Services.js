@@ -5,12 +5,12 @@ import data from "../../images/Data.png"
 
 export function Services() {
   return (
-    <div className="block">
+    <div id="Services" className="block">
       <div className="titleLine">
       <div>
       <hr></hr>
       </div>
-      <h1 id="Services" className ="titles">Services <span className="pinkBoldItalic"> Areas of Expertise</span></h1>
+      <h1 className ="titles">Services <span className="pinkBoldItalic"> Areas of Expertise</span></h1>
       <div>
       <hr></hr>
       </div>

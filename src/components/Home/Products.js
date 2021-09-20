@@ -3,12 +3,12 @@ import card from "../../images/tarjeta.png";
 
 export function Products() {
   return (
-    <div className="block">
+    <div id="Products" className="block">
       <div className="titleLine">
       <div>
       <hr></hr>
       </div>
-      <h1 id="Products" className="titles">
+      <h1 className="titles">
         WDgit <span className="pinkBoldItalic">Products </span>
       </h1>
       <div>

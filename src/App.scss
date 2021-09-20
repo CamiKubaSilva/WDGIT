@@ -31,18 +31,25 @@ $fontSemiBold: "MyriadPro-Semibold";
   src: url(../src/fonts/MyriadHebrew-BoldIt.otf);
 }
 
-.body {
-  padding: 4vw;
+.body{
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .nav {
   display: flex;
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   font-size: 1.2vw;
+  position: fixed;
+  background-color: white;
+  z-index: 3;
+  top: 0;
+  padding: 2vw 0vw 1vw 0vw;
 
   .logo{
     padding-right: 5vw;
+    margin-left: 2vw;
   }
 
   .navRigth {
@@ -53,6 +60,7 @@ $fontSemiBold: "MyriadPro-Semibold";
     height: 50%;
     padding-bottom: 1vw;
     border-bottom: solid $color-pink 0.15vw;
+    padding-right: 3vw;
 
     .navLinks {
       display: flex;
@@ -109,7 +117,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5vw;
+  padding-top: 8vw;
   width: 100%;
 
   .titleLine{
@@ -137,23 +145,37 @@ $fontSemiBold: "MyriadPro-Semibold";
     font-family: $fontBoldItalic;
     color: $color-pink
   }
+
+  .bannerSum{
+    display: flex;
+    width: 90%;
+    height: 35vw;
+    border-radius: 2vw;
+    opacity:0.3;
+    position: relative;
+    z-index: 1;
+    top: 3vw;
+}
 }
 
 .summary {
-  display: flex;
-  flex-direction: column;
-  color: $color-grey;
-  font-size: 1vw;
-  width: 60vw;
-  text-align: center;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-  font-family: $fontSemiBold;
-
-  span{
-    color: $color-pink;
+      display: flex;
+      position: absolute;
+      z-index: 2;
+      flex-direction: column;
+      color: $color-grey;
+      font-size: 1vw;
+      width: 60vw;
+      text-align: center;
+      font-family: $fontSemiBold;
+      top: 16vw;
+      
+      span{
+        color: $color-pink;
+      }
   }
-}
+
+
 
 .text {
   font-size: 2vw;

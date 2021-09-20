@@ -1,11 +1,11 @@
 export function ContactUs() {
   return (
-    <div className="block">
+    <div id="Contact" className="block">
       <div className="titleLine">
       <div>
       <hr></hr>
       </div>
-      <h1 id="Contact" className="titles">Contact <span className="pinkBoldItalic">Us</span></h1>
+      <h1 className="titles">Contact <span className="pinkBoldItalic">Us</span></h1>
       <div>
       <hr></hr>
       </div>

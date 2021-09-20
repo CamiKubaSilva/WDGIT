@@ -3,7 +3,7 @@ import summary from "../../images/summary.jpg";
 export function Summary() {
   return (
     <div className="block">
-      <img className="banner" src={summary} alt="office" />
+      <img className="bannerSum" src={summary} alt="office" />
       <div className="summary">
         <h1 className="grey">
           <span className="pink">Strategic Consulting</span>, leveraging
@@ -20,7 +20,6 @@ export function Summary() {
           strategy to execution, implementation and calibration.
         </h1>
       </div>
-      <img className="banner" src={summary} alt="office" />
     </div>
   );
 }

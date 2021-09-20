@@ -9,14 +9,16 @@ import { Footer } from "./Footer"
 
 export function Home() {
     return (
-      <div id="body" className = "body">
-        <NavBar></NavBar>
+      <div>
+      <NavBar></NavBar>
+      <div id="body" className="body">
         <Summary></Summary>
         <Services></Services>
         <Products></Products>
         <AboutUs></AboutUs>
         <ContactUs></ContactUs>
         <Footer></Footer>
+        </div>
         </div>
     );
   }
