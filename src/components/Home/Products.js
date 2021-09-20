@@ -25,7 +25,7 @@ export function Products() {
             <img className="img1" src={girl} alt="card" />
             <img className="card" src={card} alt="card" />
           </div>
-          <a href="/WDGIT/home/#" className="more">more information</a>
+          <a href="/WDGIT/#" className="more">more information</a>
         </div>
       </div>
     </div>

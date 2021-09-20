@@ -6,13 +6,13 @@ export function NavBar() {
       <img className="logo" src={Logo} alt="logo"/>
       <div className="navRigth">
         <div className="navLinks">
-          <a href="/WDGIT/home/#">Services</a>
-          <a href="/WDGIT/home/#">Products</a>
-          <a href="/WDGIT/home/#">AboutUs</a>
-          <a href="/WDGIT/home/#">Contact</a>
+          <a href="/WDGIT/#">Services</a>
+          <a href="/WDGIT/#">Products</a>
+          <a href="/WDGIT/#">AboutUs</a>
+          <a href="/WDGIT/#">Contact</a>
         </div>
         <div className="eng">
-          <a href="/WDGIT/home/#">ENG</a>
+          <a href="/WDGIT/#">ENG</a>
         </div>
         </div>
     </div>
