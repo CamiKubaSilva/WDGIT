@@ -9,7 +9,7 @@ import { Footer } from "./Footer"
 
 export function Home() {
     return (
-      <div className = "body">
+      <div id="body" className = "body">
         <NavBar></NavBar>
         <Summary></Summary>
         <Services></Services>

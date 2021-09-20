@@ -8,7 +8,7 @@ export function Products() {
       <div>
       <hr></hr>
       </div>
-      <h1 className="titles">
+      <h1 id="Products" className="titles">
         WDgit <span className="pinkBoldItalic">Products </span>
       </h1>
       <div>

@@ -5,7 +5,7 @@ export function ContactUs() {
       <div>
       <hr></hr>
       </div>
-      <h1 className="titles">Contact <span className="pinkBoldItalic">Us</span></h1>
+      <h1 id="Contact" className="titles">Contact <span className="pinkBoldItalic">Us</span></h1>
       <div>
       <hr></hr>
       </div>

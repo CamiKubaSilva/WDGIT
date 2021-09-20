@@ -60,9 +60,22 @@ $fontSemiBold: "MyriadPro-Semibold";
       width: 40%;
       justify-content: space-evenly;
       font-family: $fontRegular;
-      a {
+
+      .link {
         text-decoration: none;
         color: $color-grey;
+        cursor: pointer
+      }
+
+      .linkUp{
+        position: fixed;
+        top: 47vw;
+        right: 1vw;
+        cursor: pointer
+      }
+
+      img{
+        width: 3vw;
       }
     }
 
@@ -289,4 +302,9 @@ $fontSemiBold: "MyriadPro-Semibold";
     width: 105vw;
     margin-right: 5vw;
   }
+
+  .link {
+    width: 1vw;
+    cursor: pointer;
+  }  
 }

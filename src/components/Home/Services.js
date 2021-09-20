@@ -10,7 +10,7 @@ export function Services() {
       <div>
       <hr></hr>
       </div>
-      <h1 className ="titles">Services <span className="pinkBoldItalic"> Areas of Expertise</span></h1>
+      <h1 id="Services" className ="titles">Services <span className="pinkBoldItalic"> Areas of Expertise</span></h1>
       <div>
       <hr></hr>
       </div>
