@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
     <Route exact path="/WDGIT/landing" component={Landing}/>
-    <Route exact path="/WDGIT/home" component={Home}/>
+    <Route exact path="/WDGIT" component={Home}/>
   </BrowserRouter>
   );
 }
