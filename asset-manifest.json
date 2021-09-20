@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WDGIT/static/css/main.81378e04.chunk.css",
-    "main.js": "/WDGIT/static/js/main.1a4fb37c.chunk.js",
-    "main.js.map": "/WDGIT/static/js/main.1a4fb37c.chunk.js.map",
+    "main.js": "/WDGIT/static/js/main.4739755c.chunk.js",
+    "main.js.map": "/WDGIT/static/js/main.4739755c.chunk.js.map",
     "runtime-main.js": "/WDGIT/static/js/runtime-main.e864b712.js",
     "runtime-main.js.map": "/WDGIT/static/js/runtime-main.e864b712.js.map",
     "static/js/2.95378733.chunk.js": "/WDGIT/static/js/2.95378733.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.e864b712.js",
     "static/js/2.95378733.chunk.js",
     "static/css/main.81378e04.chunk.css",
-    "static/js/main.1a4fb37c.chunk.js"
+    "static/js/main.4739755c.chunk.js"
   ]
 }
