@@ -1,40 +1,70 @@
-$color-pink: #ed028c;
-$color-grey: rgb(112, 93, 93);
+$color-pink: #E13675;
+$color-grey: rgb(133, 133, 133);
+$fontRegular: "MyriadPro-Regular";
+$fontItalic: "MyriadPro-It";
+$fontBold: "MyriadHebrew-Bold";
+$fontBoldItalic: "MyriadHebrew-BoldIt";
+$fontSemiBold: "MyriadPro-Semibold";
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url(../src/fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "MyriadPro-Semibold";
+  src: url(../src/fonts/MyriadPro-Semibold.otf);
+}
+
+@font-face {
+  font-family: "MyriadPro-It";
+  src: url(../src/fonts/MyriadPro-It.otf);
+}
+
+@font-face {
+  font-family: "MyriadHebrew-Bold";
+  src: url(../src/fonts/MyriadHebrew-Bold.otf);
+}
+
+@font-face {
+  font-family: "MyriadHebrew-BoldIt";
+  src: url(../src/fonts/MyriadHebrew-BoldIt.otf);
+}
 
 .body {
   padding: 4vw;
 }
 
-.pink {
-  color: $color-pink;
-}
-
-.grey {
-  color: $color-grey;
-}
-
 .nav {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   height: 15vh;
-  justify-content: space-between;
+  font-size: 1.2vw;
 
-  .navLinks {
-    display: inline-flex;
-    justify-content: space-evenly;
-    width: 25vw;
+  .logo{
     padding-right: 5vw;
-    a {
-      text-decoration: none;
-      color: $color-grey;
-    }
   }
 
   .navRigth {
     display: flex;
-    padding-right: 5vw;
-    height: 5vh;
+    justify-content: flex-end;
     align-items: center;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 1vw;
+    border-bottom: solid $color-pink 0.15vw;
+
+    .navLinks {
+      display: flex;
+      padding-right: 2vw;
+      width: 40%;
+      justify-content: space-evenly;
+      font-family: $fontRegular;
+      a {
+        text-decoration: none;
+        color: $color-grey;
+      }
+    }
 
     .eng {
       display: flex;
@@ -45,18 +75,12 @@ $color-grey: rgb(112, 93, 93);
       justify-content: center;
       align-items: center;
       font-size: 2vh;
+      font-family: $fontBold;
 
       a{
         text-decoration: none;
         color: white;
       }
-    }
-
-    hr {
-      width: 100%;
-      height: 0.1vw;
-      background-color: $color-pink;
-      border: none;
     }
   }
 }
@@ -74,6 +98,32 @@ $color-grey: rgb(112, 93, 93);
   align-items: center;
   padding-top: 5vw;
   width: 100%;
+
+  .titleLine{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    hr{
+      width: 25vw;
+    }
+  }
+
+  .more{
+    font-family: $fontRegular;
+    color: $color-grey
+  }
+  .titles{
+    font-family: $fontBold;
+    color: $color-grey;
+    font-size: 2.5vw;
+  }
+  .pinkBoldItalic{
+    font-family: $fontBoldItalic;
+    color: $color-pink
+  }
 }
 
 .summary {
@@ -85,11 +135,17 @@ $color-grey: rgb(112, 93, 93);
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 2vw;
+  font-family: $fontSemiBold;
+
+  span{
+    color: $color-pink;
+  }
 }
 
 .text {
   font-size: 2vw;
   color: $color-grey;
+  font-family: $fontRegular;
 }
 
 .container {
@@ -136,16 +192,27 @@ $color-grey: rgb(112, 93, 93);
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
+  font-family: $fontRegular;
+
+  .inputContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   input {
-    width: 35vw;
+    width: 30vw;
     border-top: none;
     border-right: none;
     border-left: none;
+    outline: none;
+    font-size: 1.5vw;
   }
   label {
     color: $color-grey;
     font-size: 1.5vw;
     margin: 1.5vw;
+    width: 5vw;
   }
   button {
     background-color: $color-pink;
@@ -155,12 +222,18 @@ $color-grey: rgb(112, 93, 93);
     font-size: 1vw;
     height: 2vw;
     color: white;
-    margin-top: 5vw;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
   }
-  div {
-    display: flex;
-    flex-direction: column;
+
+  textarea{
+    outline: none;
+    width: 30vw;
+    height: 4vw;
+    resize: none;
+    font-size: 1vw;
   }
+
 }
 
 .footer {
@@ -174,6 +247,7 @@ $color-grey: rgb(112, 93, 93);
   margin-top: 5vw;
   padding-top: 5vw;
   padding-bottom: 5vw;
+  font-family: $fontRegular;
 
   .column {
     display: flex;

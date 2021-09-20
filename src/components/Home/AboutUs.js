@@ -1,7 +1,15 @@
 export function AboutUs() {
   return (
     <div className="block">
-      <h1 className="grey">About <span className="pink">Us</span></h1>
+      <div className="titleLine">
+      <div>
+      <hr></hr>
+      </div>
+      <h1 className="titles">About <span className="pinkBoldItalic">Us</span></h1>
+      <div>
+      <hr></hr>
+      </div>
+      </div>
       <p className="text">
         We are a Group of leaders in the Consulting and Technology world,
         focused on delivering impactful strategic solutions to our clients based

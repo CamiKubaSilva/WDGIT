@@ -1,4 +1,4 @@
-import summary from "../images/summary.jpg";
+import summary from "../../images/summary.jpg";
 
 export function Summary() {
   return (
