@@ -11,7 +11,7 @@ export function ContactUs() {
       </div>
       </div>
       <form className="form">
-        <div>
+        <div className="inputCont">
         <div className="inputContainer">
         <label>name</label>
         <input />
@@ -25,7 +25,7 @@ export function ContactUs() {
         <textarea />
         </div>
         </div>
-        <div>
+        <div className="inputCont">
         <div className="inputContainer">
         <label>country</label>
         <input />

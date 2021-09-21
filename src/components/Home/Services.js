@@ -20,6 +20,16 @@ export function Services() {
           WDgit is leading the way as a strategic partner, providing solutions
           with direct impact on our clients’ businesses.
         </p>
+        <div className="noShow" >
+          <img src={business} />
+          <a href="/WDGIT/#">more information</a>
+          <img src={tech} />
+          <a href="/WDGIT/#">more information</a>
+          <img src={finance} />
+          <a href="/WDGIT/#">more information</a>
+          <img src={data} />
+          <a href="/WDGIT/#">more information</a>
+          </div>
         <div className="container">
           <div className="span">
           <img src={business} alt="business"></img>

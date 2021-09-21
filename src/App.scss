@@ -1,4 +1,4 @@
-$color-pink: #E13675;
+$color-pink: #e13675;
 $color-grey: rgb(133, 133, 133);
 $fontRegular: "MyriadPro-Regular";
 $fontItalic: "MyriadPro-It";
@@ -31,7 +31,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   src: url(../src/fonts/MyriadHebrew-BoldIt.otf);
 }
 
-.body{
+.body {
   padding-left: 5vw;
   padding-right: 5vw;
 }
@@ -47,7 +47,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   top: 0;
   padding: 2vw 0vw 1vw 0vw;
 
-  .logo{
+  .logo {
     padding-right: 5vw;
     margin-left: 2vw;
   }
@@ -72,17 +72,17 @@ $fontSemiBold: "MyriadPro-Semibold";
       .link {
         text-decoration: none;
         color: $color-grey;
-        cursor: pointer
+        cursor: pointer;
       }
 
-      .linkUp{
+      .linkUp {
         position: fixed;
         top: 47vw;
         right: 1vw;
-        cursor: pointer
+        cursor: pointer;
       }
 
-      img{
+      img {
         width: 3vw;
       }
     }
@@ -98,7 +98,7 @@ $fontSemiBold: "MyriadPro-Semibold";
       font-size: 2vh;
       font-family: $fontBold;
 
-      a{
+      a {
         text-decoration: none;
         color: white;
       }
@@ -120,115 +120,171 @@ $fontSemiBold: "MyriadPro-Semibold";
   padding-top: 8vw;
   width: 100%;
 
-  .titleLine{
+  .titleLine {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 
-    hr{
+    hr {
       width: 25vw;
     }
   }
 
-  .more{
+  .more {
     font-family: $fontRegular;
-    color: $color-grey
+    color: $color-grey;
   }
-  .titles{
+  .titles {
     font-family: $fontBold;
     color: $color-grey;
     font-size: 2.5vw;
   }
-  .pinkBoldItalic{
+  .pinkBoldItalic {
     font-family: $fontBoldItalic;
-    color: $color-pink
+    color: $color-pink;
   }
 
-  .bannerSum{
+  .bannerSum {
     display: flex;
     width: 90%;
     height: 35vw;
     border-radius: 2vw;
-    opacity:0.3;
+    opacity: 0.3;
     position: relative;
     z-index: 1;
     top: 3vw;
-}
+  }
 }
 
 .summary {
-      display: flex;
-      position: absolute;
-      z-index: 2;
-      flex-direction: column;
-      color: $color-grey;
-      font-size: 1vw;
-      width: 60vw;
-      text-align: center;
-      font-family: $fontSemiBold;
-      top: 16vw;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  flex-direction: column;
+  color: $color-grey;
+  font-size: 1vw;
+  width: 60vw;
+  text-align: center;
+  font-family: $fontSemiBold;
+  top: 16vw;
 
-      @keyframes fade-inout {
-        0%{ opacity: 1}
-        10%{ opacity: 1}
-        20%{ opacity: 1}
-        40%{ opacity: 0}
-        50%{opacity: 0}
-        60%{opacity: 0}
-        70%{opacity: 0}
-        80%{opacity: 0}
-        90%{opacity: 1}
-        100%{ opacity: 1}
-      }
-
-      @keyframes fade-outin {
-        0%{opacity: 0}
-        10%{ opacity: 0}
-        20%{ opacity: 1}
-        40%{opacity: 1}
-        50%{ opacity: 1}
-        60%{ opacity: 0}
-        70%{ opacity: 0}
-        80%{ opacity: 0}
-        90%{ opacity: 0}
-        100%{ opacity: 0}
-
-
-      }
-
-      @keyframes fade-outin2 {
-        0%{opacity: 0}
-        10%{ opacity: 0}
-        20%{ opacity: 0}
-        40%{opacity: 0}
-        50%{opacity: 0}
-        60%{opacity: 1}
-        70%{opacity: 1}
-        80%{opacity: 1}
-        90%{opacity: 1}
-        100%{ opacity: 0}
-      }
-
-      .fadeinSum{
-        animation: fade-inout 10s infinite normal 
-      }
-
-      .fadeinSum2{
-        animation: fade-outin 10s infinite normal
-      }
-
-      .fadeinSum3{
-        animation: fade-outin2 10s infinite normal
-      }
-      
-      span{
-        color: $color-pink;
-      }
+  @keyframes fade-inout {
+    0% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
+  @keyframes fade-outin {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 
+  @keyframes fade-outin2 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .fadeinSum {
+    animation: fade-inout 10s infinite normal;
+  }
+
+  .fadeinSum2 {
+    animation: fade-outin 10s infinite normal;
+  }
+
+  .fadeinSum3 {
+    animation: fade-outin2 10s infinite normal;
+  }
+
+  span {
+    color: $color-pink;
+  }
+}
 
 .text {
   font-size: 2vw;
@@ -282,7 +338,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   justify-content: space-evenly;
   font-family: $fontRegular;
 
-  .inputContainer{
+  .inputContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -314,14 +370,13 @@ $fontSemiBold: "MyriadPro-Semibold";
     margin-top: 1.5vw;
   }
 
-  textarea{
+  textarea {
     outline: none;
     width: 30vw;
     height: 4vw;
     resize: none;
     font-size: 1vw;
   }
-
 }
 
 .footer {
@@ -381,5 +436,217 @@ $fontSemiBold: "MyriadPro-Semibold";
   .link {
     width: 1vw;
     cursor: pointer;
-  }  
+  }
+}
+.noShow{
+  display: none;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+  .nav {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .logo{
+      width: 50%;
+    }
+    .navRigth {
+      display: none;
+    }
+  }
+
+  .block{
+    position: relative;
+    padding: 0;
+
+    .bannerSum{
+      display:none
+    }
+    .summary{
+      display: flex;
+      width: 100%;
+      position: relative;
+      flex-direction: column;
+      text-align: center;
+      padding: 2vw;
+      font-family: $fontSemiBold;
+      font-size: 2vw;
+      top: 2vh;
+      border-radius: 2vw;
+      background-color: white;
+      box-shadow: 0vw 2vw 5vw rgb(185, 185, 185);
+
+      .fadeinSum {
+       animation: none;
+      }
+    
+      .fadeinSum2 {
+        animation: none;
+      }
+    
+      .fadeinSum3 {
+        animation: none;
+      }
+    }
+  }
+
+  .titleLine{
+    padding-top: 15vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    hr{
+      display: none;
+    }
+    .titles{
+      font-size: 5vw;
+    }
+  }
+  .text{
+    font-size: 5vw;
+    text-align: center;
+    font-family: $fontSemiBold;
+    margin: 0;
+  }
+
+  .container{
+    display: none;
+  }
+
+  .noShow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vw;
+
+    a{
+      text-decoration: none;
+      font-size: 3vw;
+      color: $color-grey;
+      font-family: $fontSemiBold;
+    }
+
+    img{
+      width:40vw;
+      padding-top: 5vw;
+    }
+  }
+
+  .img1{
+    display:none;
+  }
+
+  .more{
+    a{
+      display: flex;
+      padding-top: 20vw;
+      justify-content: flex-end;
+    }
+    .cardImg{
+      .card{
+        display: flex;
+        padding-top: 20vw;
+        width: 100%;
+      }
+    }
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+    .inputCont{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    .inputContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+
+        input{
+          width: 100%;
+          height: 2vh;
+          border: solid 0.5vw;
+        }
+        label{
+          width: 100%;
+          font-size: 5vw;
+        }
+  
+        textarea{
+          width: 100%;
+          font-size: 5vw;
+          resize: none;
+        }
+      }
+      button{
+        background-color: $color-pink;
+        border: none;
+        border-radius: 1.5vw;
+        width: 60%;
+        font-size: 5vw;
+        height: 10vw;
+        color: white;
+        margin-top: 5vw;
+        margin-left: 16vw;
+      }
+    }
+  }
+
+  .footer{
+    width: 100%;
+    height: 60vw;
+    
+    img{
+      display:none
+    }
+
+    .column{
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 2vw 5vw 0vw 5vw;
+      
+      h3{
+        font-size: 3vw;
+      }
+  
+      a{
+        font-size: 2vw;
+      }
+    }
+
+    .row{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .textBottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 2.5vw;
+      div{
+        width: 40%;
+      }
+    }
+  }
+
+
 }
