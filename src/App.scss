@@ -169,6 +169,59 @@ $fontSemiBold: "MyriadPro-Semibold";
       text-align: center;
       font-family: $fontSemiBold;
       top: 16vw;
+
+      @keyframes fade-inout {
+        0%{ opacity: 1}
+        10%{ opacity: 1}
+        20%{ opacity: 1}
+        40%{ opacity: 0}
+        50%{opacity: 0}
+        60%{opacity: 0}
+        70%{opacity: 0}
+        80%{opacity: 0}
+        90%{opacity: 1}
+        100%{ opacity: 1}
+      }
+
+      @keyframes fade-outin {
+        0%{opacity: 0}
+        10%{ opacity: 0}
+        20%{ opacity: 1}
+        40%{opacity: 1}
+        50%{ opacity: 1}
+        60%{ opacity: 0}
+        70%{ opacity: 0}
+        80%{ opacity: 0}
+        90%{ opacity: 0}
+        100%{ opacity: 0}
+
+
+      }
+
+      @keyframes fade-outin2 {
+        0%{opacity: 0}
+        10%{ opacity: 0}
+        20%{ opacity: 0}
+        40%{opacity: 0}
+        50%{opacity: 0}
+        60%{opacity: 1}
+        70%{opacity: 1}
+        80%{opacity: 1}
+        90%{opacity: 1}
+        100%{ opacity: 0}
+      }
+
+      .fadeinSum{
+        animation: fade-inout 10s infinite normal 
+      }
+
+      .fadeinSum2{
+        animation: fade-outin 10s infinite normal
+      }
+
+      .fadeinSum3{
+        animation: fade-outin2 10s infinite normal
+      }
       
       span{
         color: $color-pink;

@@ -5,20 +5,26 @@ export function Summary() {
     <div className="block">
       <img className="bannerSum" src={summary} alt="office" />
       <div className="summary">
+        <div className="fadeinSum">
         <h1 className="grey">
           <span className="pink">Strategic Consulting</span>, leveraging
           Technology Solutions based on Data Science and Artifcial Intelligence.
           </h1>
+          </div>
+          <div className="fadeinSum2">
           <h1>
           We help our clients identify emerging opportunities, finding
           unexpected value and creating new business seizing the
           <span className="pink"> power of digital.</span>
           </h1>
+          </div>
+          <div className="fadeinSum3">
           <h1>
           We join our clients throughout their journey
           <span className="pink"> transforming their business</span>, from
           strategy to execution, implementation and calibration.
         </h1>
+        </div>
       </div>
     </div>
   );
