@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WDGIT/static/css/main.331b1152.chunk.css",
+    "main.css": "/WDGIT/static/css/main.8db433b8.chunk.css",
     "main.js": "/WDGIT/static/js/main.f0833c5c.chunk.js",
     "main.js.map": "/WDGIT/static/js/main.f0833c5c.chunk.js.map",
     "runtime-main.js": "/WDGIT/static/js/runtime-main.e864b712.js",
@@ -8,7 +8,7 @@
     "static/js/2.02b18b2c.chunk.js": "/WDGIT/static/js/2.02b18b2c.chunk.js",
     "static/js/2.02b18b2c.chunk.js.map": "/WDGIT/static/js/2.02b18b2c.chunk.js.map",
     "index.html": "/WDGIT/index.html",
-    "static/css/main.331b1152.chunk.css.map": "/WDGIT/static/css/main.331b1152.chunk.css.map",
+    "static/css/main.8db433b8.chunk.css.map": "/WDGIT/static/css/main.8db433b8.chunk.css.map",
     "static/js/2.02b18b2c.chunk.js.LICENSE.txt": "/WDGIT/static/js/2.02b18b2c.chunk.js.LICENSE.txt",
     "static/media/Logo.78314ca1.png": "/WDGIT/static/media/Logo.78314ca1.png",
     "static/media/App.scss": "/WDGIT/static/media/MyriadPro-Semibold.d47093a3.otf",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e864b712.js",
     "static/js/2.02b18b2c.chunk.js",
-    "static/css/main.331b1152.chunk.css",
+    "static/css/main.8db433b8.chunk.css",
     "static/js/main.f0833c5c.chunk.js"
   ]
 }
