@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c102ed7.chunk.css",
-    "main.js": "/static/js/main.f0833c5c.chunk.js",
-    "main.js.map": "/static/js/main.f0833c5c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1c5a09f5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1c5a09f5.js.map",
-    "static/js/2.02b18b2c.chunk.js": "/static/js/2.02b18b2c.chunk.js",
-    "static/js/2.02b18b2c.chunk.js.map": "/static/js/2.02b18b2c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2c102ed7.chunk.css.map": "/static/css/main.2c102ed7.chunk.css.map",
-    "static/js/2.02b18b2c.chunk.js.LICENSE.txt": "/static/js/2.02b18b2c.chunk.js.LICENSE.txt",
-    "static/media/Logo.78314ca1.png": "/static/media/Logo.78314ca1.png",
-    "static/media/App.scss": "/static/media/MyriadPro-Semibold.d47093a3.otf",
-    "static/media/girl1.922ba24f.png": "/static/media/girl1.922ba24f.png",
-    "static/media/girl2.702d54e3.png": "/static/media/girl2.702d54e3.png",
-    "static/media/summary.4d821fb8.jpg": "/static/media/summary.4d821fb8.jpg",
-    "static/media/tarjeta.20c1108e.png": "/static/media/tarjeta.20c1108e.png",
-    "static/media/up.3ba20633.png": "/static/media/up.3ba20633.png"
+    "main.css": "/WDGIT/static/css/main.aa4a7a73.chunk.css",
+    "main.js": "/WDGIT/static/js/main.f0833c5c.chunk.js",
+    "main.js.map": "/WDGIT/static/js/main.f0833c5c.chunk.js.map",
+    "runtime-main.js": "/WDGIT/static/js/runtime-main.e864b712.js",
+    "runtime-main.js.map": "/WDGIT/static/js/runtime-main.e864b712.js.map",
+    "static/js/2.02b18b2c.chunk.js": "/WDGIT/static/js/2.02b18b2c.chunk.js",
+    "static/js/2.02b18b2c.chunk.js.map": "/WDGIT/static/js/2.02b18b2c.chunk.js.map",
+    "index.html": "/WDGIT/index.html",
+    "static/css/main.aa4a7a73.chunk.css.map": "/WDGIT/static/css/main.aa4a7a73.chunk.css.map",
+    "static/js/2.02b18b2c.chunk.js.LICENSE.txt": "/WDGIT/static/js/2.02b18b2c.chunk.js.LICENSE.txt",
+    "static/media/Logo.78314ca1.png": "/WDGIT/static/media/Logo.78314ca1.png",
+    "static/media/App.scss": "/WDGIT/static/media/MyriadPro-Semibold.d47093a3.otf",
+    "static/media/girl1.922ba24f.png": "/WDGIT/static/media/girl1.922ba24f.png",
+    "static/media/girl2.702d54e3.png": "/WDGIT/static/media/girl2.702d54e3.png",
+    "static/media/summary.4d821fb8.jpg": "/WDGIT/static/media/summary.4d821fb8.jpg",
+    "static/media/tarjeta.20c1108e.png": "/WDGIT/static/media/tarjeta.20c1108e.png",
+    "static/media/up.3ba20633.png": "/WDGIT/static/media/up.3ba20633.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c5a09f5.js",
+    "static/js/runtime-main.e864b712.js",
     "static/js/2.02b18b2c.chunk.js",
-    "static/css/main.2c102ed7.chunk.css",
+    "static/css/main.aa4a7a73.chunk.css",
     "static/js/main.f0833c5c.chunk.js"
   ]
 }
