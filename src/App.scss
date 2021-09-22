@@ -160,7 +160,8 @@ $fontSemiBold: "MyriadPro-Semibold";
 
 .summary {
   display: flex;
-  position: absolute;
+  position: fixed;
+  width: 100%;
   z-index: 2;
   flex-direction: column;
   color: $color-grey;
@@ -170,34 +171,69 @@ $fontSemiBold: "MyriadPro-Semibold";
   font-family: $fontSemiBold;
   top: 16vw;
 
-  .slide-right {
-    width: 100%;
-    overflow: hidden;
-    margin-left: 300px;
-    max-width: 500px
-  }
-
   @keyframes slide-right {
-    to {
-      transform:translateX(0);
-    }
+      0%{
+        margin-left: -150%;
+      }
+      20%{
+        margin-left: 0%;
+      }
+      40%{
+        margin-left: 150%;
+        }
+      100%{
+      margin-left: 150%;
+      }
+
  }
 
-  .fade-outin {
-
+ @keyframes slide-left {
+  0%{
+    margin-left: -150%;
   }
-
-  .fadeinSum {
-    animation: 2s slide-right infinite;
-    transform:translateX(-100%);
+  30%{
+    margin-left: -150%;
   }
+  50%{
+    margin-left:0%;
+    }
+  70%{
+      margin-left: 150%;
+  }
+  100%{
+  margin-left: 150%;
+  }
+}
+
+@keyframes slide-left2 {
+  0%{
+    margin-left: -150%;
+  }
+  60%{
+    margin-left: -150%;
+  }
+  80%{
+    margin-left: 0%;
+  }
+  100%{
+  margin-left: 150%;
+  }
+}
+
+
+ .fadeinSum {
+    width: 100%;
+   animation: slide-right 30s infinite normal;
+ }
 
   .fadeinSum2 {
-    animation: fade-outin 10s infinite normal;
+    width: 100%;
+    animation: slide-left 30s infinite normal;
   }
 
   .fadeinSum3 {
-    animation: fade-outin2 10s infinite normal;
+    width: 100%;
+    animation: slide-left2 30s infinite normal;
   }
 
   span {
@@ -362,7 +398,6 @@ $fontSemiBold: "MyriadPro-Semibold";
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 375px){
-
   .nav{
     .navRigth{
 
