@@ -160,8 +160,7 @@ $fontSemiBold: "MyriadPro-Semibold";
 
 .summary {
   display: flex;
-  position: fixed;
-  width: 100%;
+  position:absolute;
   z-index: 2;
   flex-direction: column;
   color: $color-grey;
@@ -169,7 +168,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   width: 60vw;
   text-align: center;
   font-family: $fontSemiBold;
-  top: 16vw;
+  top: 30vh;
 
   @keyframes slide-right {
       0%{
