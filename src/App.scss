@@ -170,107 +170,26 @@ $fontSemiBold: "MyriadPro-Semibold";
   font-family: $fontSemiBold;
   top: 16vw;
 
-  @keyframes fade-inout {
-    0% {
-      opacity: 1;
-    }
-    10% {
-      opacity: 1;
-    }
-    20% {
-      opacity: 1;
-    }
-    40% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 0;
-    }
-    70% {
-      opacity: 0;
-    }
-    80% {
-      opacity: 0;
-    }
-    90% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+  .slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 300px;
+    max-width: 500px
   }
 
-  @keyframes fade-outin {
-    0% {
-      opacity: 0;
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
     }
-    10% {
-      opacity: 0;
-    }
-    20% {
-      opacity: 1;
-    }
-    40% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 1;
-    }
-    60% {
-      opacity: 0;
-    }
-    70% {
-      opacity: 0;
-    }
-    80% {
-      opacity: 0;
-    }
-    90% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
+ }
 
-  @keyframes fade-outin2 {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      opacity: 0;
-    }
-    20% {
-      opacity: 0;
-    }
-    40% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-    }
-    70% {
-      opacity: 1;
-    }
-    80% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+  .fade-outin {
+
   }
 
   .fadeinSum {
-    animation: fade-inout 10s infinite normal;
+    animation: 2s slide-right infinite;
+    transform:translateX(-100%);
   }
 
   .fadeinSum2 {
@@ -442,7 +361,41 @@ $fontSemiBold: "MyriadPro-Semibold";
   display: none;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) {
+@media only screen and (max-width: 1366px) and (min-width: 375px){
+
+  .nav{
+    .navRigth{
+
+      .navLinks{
+        .linkUp{
+          top: 45vw;
+          right: 1vw;
+        }
+      }
+    }
+  }
+  .footer {
+ 
+    .textBottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 1vw;
+
+      div{
+        width: 50%;
+      }
+    }
+  
+    img {
+      width: 40vw;
+      margin-right: 5vw;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 375px) and (min-width: 200px){
   .nav {
     display: flex;
     position: relative;
