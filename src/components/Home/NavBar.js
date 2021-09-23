@@ -16,7 +16,7 @@ export function NavBar() {
           <Link className="linkUp" to="body" spy={true} smooth={true}><img src={up} alt="Back to top"/></Link>
         </div>
         <div className="eng">
-          <a href="/WDGIT/#">ENG</a>
+          <a href="/home/#">ENG</a>
         </div>
         </div>
     </div>

@@ -1,0 +1,881 @@
+$color-pink: #642e8d;
+$color-pink2: rgb(148, 109, 179);
+$color-grey: rgb(133, 133, 133);
+$fontRegular: "MyriadPro-Regular";
+$fontItalic: "MyriadPro-It";
+$fontBold: "MyriadHebrew-Bold";
+$fontBoldItalic: "MyriadHebrew-BoldIt";
+$fontSemiBold: "MyriadPro-Semibold";
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url(../../fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "MyriadPro-Semibold";
+  src: url(../../fonts/MyriadPro-Semibold.otf);
+}
+
+@font-face {
+  font-family: "MyriadPro-It";
+  src: url(../../fonts/MyriadPro-It.otf);
+}
+
+@font-face {
+  font-family: "MyriadHebrew-Bold";
+  src: url(../../fonts/MyriadHebrew-Bold.otf);
+}
+
+@font-face {
+  font-family: "MyriadHebrew-BoldIt";
+  src: url(../../fonts/MyriadPro-BoldIt.otf);
+}
+
+.bodyL {
+  padding: 4vw;
+}
+
+// NAV
+
+.navBarL {
+  width: 100%;
+  height: 3.5vh;
+  position: fixed;
+  background-color: white;
+  .nav {
+    display: flex;
+    width:91.1%;
+    @media only screen and (max-width: 1366px) and (min-width: 376px) {
+      height: 5vw;
+    }
+    font-size: 1.2vw;
+    position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+    padding: 2vw 0vw 1vw 0vw;
+    border-bottom: solid $color-pink 0.15vw;
+    top: 0;
+
+    .logo {
+        display: none;
+    }
+
+    .navLinks {
+      display: flex;
+      width: 40%;
+      justify-content: space-evenly;
+      font-family: $fontRegular;
+      align-items: center;
+      font-size: 1vw;
+
+      a {
+        text-decoration: none;
+        color: $color-grey;
+      }
+
+      .link {
+        text-decoration: none;
+        color: $color-grey;
+        cursor: pointer;
+      }
+
+      .linkUp {
+        position: fixed;
+        bottom: 1vh;
+        right: 1vw;
+        cursor: pointer;
+
+        img {
+          width: 3vw;
+        }
+      }
+    }
+
+    .navRigthL {
+      display: flex;
+      align-items: center;
+      width: 20%;
+      justify-content: space-between;
+      padding-right: 3vw;
+      font-size: 1vw;
+      font-family: $fontRegular;
+
+      .buttonLet{
+        text-decoration: none;
+        color: white;
+      }
+
+      a {
+        text-decoration: none;
+        color: $color-grey;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border: none;
+        border-radius: 0.5vw;
+        background-color: $color-pink;
+        height: 4vw;
+        width: 8vw;
+        font-size: 1.2vw;
+        font-family: $fontSemiBold;
+      }
+
+      .eng {
+        display: flex;
+        height: 3.5vw;
+        width: 3vw;
+        border-radius: 100%;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+        font-family: $fontSemiBold;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.bannerL {
+  display: flex;
+  width: 100%;
+  height: 40vw;
+  border-radius: 2vw;
+  background-color: $color-pink;
+}
+
+// BLOCK
+
+.blockL {
+  @media only screen and (max-width: 1366px) and (min-width: 200px) {
+    margin-top: 5vw;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vw;
+  width: 100%;
+  justify-content: space-between;
+
+  .violetText {
+    color: $color-pink;
+  }
+
+  .blackText {
+    color: black;
+  }
+
+  .ligthViolet {
+    color: $color-pink2;
+  }
+
+  .titleLine {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    hr {
+      width: 25vw;
+    }
+  }
+
+  .more {
+    font-family: $fontRegular;
+    color: $color-grey;
+  }
+  .titles {
+    font-family: $fontBold;
+    color: $color-grey;
+    font-size: 2.5vw;
+  }
+  .pinkBoldItalic {
+    font-family: $fontBoldItalic;
+    color: $color-pink;
+  }
+}
+
+//SUMMARY
+
+.summaryL {
+  display: flex;
+  flex-direction: row;
+  color: $color-grey;
+  font-size: 1vw;
+  width: 100%;
+  font-family: $fontSemiBold;
+  align-content: center;
+  justify-content: space-between;
+
+  .violetCards {
+    width: 25%;
+    padding-left: 5vw;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .violetForms {
+    width: 20%;
+    padding-right: 5vw;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .centerText {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+
+    .topTitles {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .rowTitle {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 6vw;
+      font-size: 1.5vw;
+
+      .sign {
+        color: $color-pink;
+        font-family: $fontBold;
+      }
+
+      .unaTarjeta {
+        color: $color-pink2;
+        font-family: $fontBold;
+      }
+    }
+
+    .multiples {
+      color: $color-pink;
+      text-align: right;
+      font-size: 1.8vw;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border: none;
+      border-radius: 0.5vw;
+      background-color: $color-pink;
+      height: 5vw;
+      width: 10vw;
+      font-size: 1.5vw;
+      font-family: $fontSemiBold;
+    }
+  }
+
+  span {
+    color: $color-pink;
+  }
+}
+
+.summaryBotL {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  font-family: $fontRegular;
+  color: $color-grey;
+  font-size: 1.3vw;
+  padding-left: 4vw;
+
+  h1 {
+    margin: 0;
+    color: $color-pink;
+    font-size: 4vw;
+    font-family: $fontBold;
+  }
+
+  h3 {
+    margin: 0;
+    color: black;
+    font-size: 1.8vw;
+    font-family: $fontRegular;
+  }
+}
+
+.textL {
+  font-size: 2vw;
+  color: $color-grey;
+  font-family: $fontRegular;
+}
+
+.containerL {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    text-decoration: none;
+    color: $color-grey;
+  }
+  img {
+    width: 15vw;
+  }
+  .span {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+}
+.moreL {
+  text-align: right;
+  .cardImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20vw;
+    .card {
+      width: 50vw;
+    }
+    .img1 {
+      width: 20vw;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $color-grey;
+  }
+}
+
+// Services
+
+.blockSL {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vw;
+  width: 100%;
+  justify-content: space-between;
+
+  .violetDiv {
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    background-color: $color-pink;
+    border-radius: 1vw;
+    color: white;
+    justify-content: space-between;
+    z-index: -1;
+
+    .imgGirl {
+      position: relative;
+      z-index: -1;
+      display: flex;
+      width: 50%;
+      right: 10vw;
+    }
+
+    .textRigth {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 3vw 3vw 3vw 0vw;
+
+      .text-pngs {
+        display: flex;
+        width: 85%;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: $fontRegular;
+        font-size: 1.2vw;
+        padding-left: 2.5vw;
+        p {
+          width: 5.5vw;
+          text-align: center;
+        }
+      }
+
+      .pngs-img {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      }
+
+      .imgTransf {
+        width: 100%;
+      }
+
+      .pagos {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+        h1 {
+          font-family: $fontBold;
+          font-size: 4.5vw;
+          margin: 0;
+        }
+
+        h2 {
+          font-family: $fontSemiBold;
+          font-size: 2vw;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .bottomCards {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1vw;
+    align-items: center;
+
+    .ligthVioletDiv {
+      display: flex;
+      width: 49%;
+      height: 100%;
+      background-color: $color-pink2;
+      border-radius: 1vw;
+      color: white;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .smallVioletDivL {
+      @media only screen and (min-width: 1367px) {
+        display: flex;
+        width: 47%;
+        height: 64vh;
+        flex-direction: column;
+        background-color: $color-pink;
+        border-radius: 1vw;
+        color: white;
+        justify-content: space-between;
+      }
+
+      .textCardSmall {
+        width: 100%;
+        text-align: right;
+        font-family: $fontBold;
+        font-size: 1.2vw;
+        justify-content: flex-start;
+
+        h1 {
+          padding-right: 2vw;
+        }
+
+        h2 {
+          padding-right: 2vw;
+        }
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-pink;
+        border: none;
+        border-radius: 0.7vw;
+        background-color: white;
+        height: 10vw;
+        width: 10vw;
+        font-size: 1.5vw;
+        font-family: $fontSemiBold;
+        margin-right: 2vw;
+      }
+
+      .buttonImg {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+
+        .google {
+          padding-right: 2vw;
+          width: 13vw;
+        }
+      }
+    }
+  }
+  .acumula {
+    padding-top: 4vw;
+    color: $color-grey;
+    font-family: $fontRegular;
+    width: 25%;
+    font-size: 2vw;
+    text-align: center;
+  }
+}
+
+// Products
+
+.blockPL {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  hr {
+    width: 100%;
+    height: 0.1vw;
+    border: none;
+    background-color: $color-pink;
+  }
+
+  .unite {
+    text-align: center;
+    padding-top: 5vw;
+    h1 {
+      color: $color-pink;
+      width: 100%;
+      height: 5vw;
+      font-size: 5vw;
+      font-family: $fontBold;
+      margin: 0;
+    }
+
+    h2 {
+      color: $color-pink;
+      width: 100%;
+      height: 5vw;
+      font-size: 3vw;
+      font-family: $fontBold;
+      margin: 0;
+    }
+
+    a {
+      width: 100%;
+      height: 5vw;
+      font-size: 2vw;
+      color: $color-grey;
+      font-family: $fontBold;
+      margin: 0;
+      text-decoration: none;
+    }
+  }
+
+  .obtene {
+    width: 100%;
+    height: 5vw;
+    text-align: center;
+    color: $color-pink2;
+    font-family: $fontSemiBold;
+    font-size: 5vw;
+    margin: 0;
+  }
+
+  .byn {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+
+  .allCards {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+  }
+
+  .buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2vw;
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border: none;
+      border-radius: 1.2vw;
+      background-color: $color-pink;
+      height: 7vh;
+      width: 12vw;
+      font-size: 1.5vw;
+      font-family: $fontSemiBold;
+    }
+  }
+}
+
+// Contact
+
+.blockCL {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2vw;
+
+  .titlesContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    h1 {
+      color: $color-pink;
+      font-family: $fontSemiBold;
+      font-size: 4vw;
+      margin: 0;
+    }
+
+    h2 {
+      color: $color-grey;
+      font-family: $fontSemiBold;
+      width: 15vw;
+      font-size: 1.5vw;
+      text-align: center;
+    }
+
+    h3 {
+      color: $color-pink;
+      font-family: $fontSemiBold;
+      width: 40vw;
+      font-size: 1.5vw;
+      text-align: center;
+    }
+  }
+
+  .equalCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+    img {
+      width: 60%;
+    }
+
+    h1 {
+      color: $color-pink;
+      width: 20vw;
+      font-family: $fontSemiBold;
+      font-size: 4vw;
+      margin: 0;
+    }
+
+    h2 {
+      color: $color-grey;
+      font-family: $fontSemiBold;
+      width: 25vw;
+      font-size: 1.5vw;
+      text-align: left;
+    }
+
+    .href {
+      text-align: right;
+      width: 20vw;
+      a {
+        color: $color-pink;
+        font-size: 1.5vw;
+        font-family: $fontSemiBold;
+        text-decoration: none;
+      }
+    }
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 1.2vw;
+    background-color: $color-pink;
+    height: 7vw;
+    width: 12vw;
+    font-size: 1.5vw;
+    font-family: $fontSemiBold;
+  }
+}
+
+.formL {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  font-family: $fontRegular;
+
+  .inputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  input {
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    font-size: 1.5vw;
+  }
+  label {
+    color: $color-grey;
+    font-size: 1.5vw;
+    margin: 1.5vw;
+    width: 5vw;
+  }
+  button {
+    background-color: $color-pink;
+    border: none;
+    border-radius: 0.4vw;
+    width: 5vw;
+    font-size: 1vw;
+    height: 2vw;
+    color: white;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+  }
+
+  textarea {
+    outline: none;
+    width: 30vw;
+    height: 4vw;
+    resize: none;
+    font-size: 1vw;
+  }
+}
+
+.footerL {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 30vw;
+  background-color: $color-pink;
+  border-radius: 2vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  font-family: $fontRegular;
+  font-size: 1.1vw;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .textBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 15vw;
+  }
+
+  a {
+    padding: 0.3vw;
+    text-decoration: none;
+    color: white;
+  }
+
+  @media only screen and (min-width: 1367px) {
+    img {
+      width: 105vw;
+      height: auto;
+      margin-right: 5vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 375px) {
+  .smallVioletDivL {
+    display: flex;
+    width: 47%;
+    height: 32vw;
+    flex-direction: column;
+    background-color: $color-pink;
+    border-radius: 1vw;
+    color: white;
+    justify-content: space-between;
+  }
+
+  .footerL {
+    .img {
+      img {
+        width: 30vw;
+        height: auto;
+        margin-right: 5vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 200px){
+  .navBarL{
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    .nav {
+      display: flex;
+      position: relative;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      border: none;
+
+      .navLinks {
+        display: none;
+      }
+      .navRigthL{
+        display: none;
+      }
+      .logo{
+        display:flex;
+        width: 30vw;
+      }
+    }
+  }
+  
+  .smallVioletDivL {
+    display: flex;
+    width: 47%;
+    height: 32vw;
+    flex-direction: column;
+    background-color: $color-pink;
+    border-radius: 1vw;
+    color: white;
+    justify-content: space-between;
+  }
+}

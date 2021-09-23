@@ -3,24 +3,20 @@ import { NavBar } from "./NavBar"
 import { Summary } from "./Summary"
 import { Services } from "./Services"
 import { Products } from "./Products"
-import { AboutUs } from "./AboutUs"
 import { ContactUs } from "./ContactUs"
 import { Footer } from "./Footer"
 
-import './Home.modules.scss';
+import "./Landing.modules.scss";
 
-export function Home() {
+export function Landing() {
     return (
-      <div>
-      <NavBar></NavBar>
-      <div id="body" className="body">
+      <div className = "bodyL">
+        <NavBar></NavBar>
         <Summary></Summary>
         <Services></Services>
         <Products></Products>
-        <AboutUs></AboutUs>
         <ContactUs></ContactUs>
         <Footer></Footer>
-        </div>
         </div>
     );
   }
