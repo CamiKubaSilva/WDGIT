@@ -6,8 +6,8 @@ import { Landing } from "./components/Landing"
 function App() {
   return (
     <BrowserRouter>
-    <Route exact path="/home" component={Home}/>
-    <Route exact path="/" component={Landing}/>
+    <Route exact path="/" component={Home}/>
+    <Route exact path="/landing" component={Landing}/>
   </BrowserRouter>
   );
 }

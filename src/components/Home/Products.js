@@ -25,7 +25,7 @@ export function Products() {
             <img className="img1" src={girl} alt="card" />
             <img className="card" src={card} alt="card" />
           </div>
-          <a href="/home/#" className="more">more information</a>
+          <a href="/#" className="more">more information</a>
         </div>
       </div>
     </div>

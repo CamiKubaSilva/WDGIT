@@ -8,37 +8,37 @@ export function Footer() {
       <div className="row">
       <div className = "column4">
       <h3>Services</h3>
-      <a href="/home/#">Plans</a>
-      <a href="/home/#">Compare</a>
-      <a href="/home/#">Open</a>
-      <a href="/home/#">Payments</a>
-      <a href="/home/#">Transfers</a>
-      <a href="/home/#">Cashback</a>
-      <a href="/home/#">Withdraw</a>
-      <a href="/home/#">ATM</a>
+      <a href="/#">Plans</a>
+      <a href="/#">Compare</a>
+      <a href="/#">Open</a>
+      <a href="/#">Payments</a>
+      <a href="/#">Transfers</a>
+      <a href="/#">Cashback</a>
+      <a href="/#">Withdraw</a>
+      <a href="/#">ATM</a>
       </div>
       <div className = "column4">
       <h3>Products</h3>
-      <a href="/home/#">Consulting</a>
-      <a href="/home/#">Prepaid Card</a>
-      <a href="/home/#">Insurance</a>
-      <a href="/home/#">Travel</a>
+      <a href="/#">Consulting</a>
+      <a href="/#">Prepaid Card</a>
+      <a href="/#">Insurance</a>
+      <a href="/#">Travel</a>
       </div>
       <div className = "column4">
       <h3>About Us</h3>
-      <a href="/home/#">About us</a>
-      <a href="/home/#">Leadership</a>
-      <a href="/home/#">Diversity and inclusion</a>
-      <a href="/home/#">Careers</a>
-      <a href="/home/#">Blog</a>
-      <a href="/home/#">News</a>
+      <a href="/#">About us</a>
+      <a href="/#">Leadership</a>
+      <a href="/#">Diversity and inclusion</a>
+      <a href="/#">Careers</a>
+      <a href="/#">Blog</a>
+      <a href="/#">News</a>
       </div>
       <div className = "column4">
       <h3>Contact</h3>
-      <a href="/home/#">Customer help</a>
-      <a href="/home/#">Community</a>
-      <a href="/home/#">Contact</a>
-      <a href="/home/#">Financial Statements</a>
+      <a href="/#">Customer help</a>
+      <a href="/#">Community</a>
+      <a href="/#">Contact</a>
+      <a href="/#">Financial Statements</a>
       </div>
       </div>
       <div className="textBottom">
