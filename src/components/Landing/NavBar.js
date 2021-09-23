@@ -16,11 +16,11 @@ export function NavBar() {
           <Link className="linkUp" to="body" spy={true} smooth={true}><img src={up} alt="Back to top"/></Link>
         </div>
         <div className="navRigthL">
-          <a href="/#">Mi cuenta</a>
+          <a href="/tarjetas/#">Mi cuenta</a>
           <div className="eng">
-            <a href="/#">ENG</a>
+            <a href="/tarjetas/#">ENG</a>
           </div>
-          <button><a className="buttonLet" href="/home">Get Started</a></button>
+          <button><a className="buttonLet" href="/">Get Started</a></button>
         </div>
       </div>
     </div>

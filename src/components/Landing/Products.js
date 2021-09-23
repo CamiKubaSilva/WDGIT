@@ -21,7 +21,7 @@ export function Products() {
         <h1>Unite a nuestra familia</h1>
         <h2>accedé a una tarjeta global</h2>
         <hr id="giveback"></hr>
-        <a href="/WDGIT-landing/#">Acerca de nosotros</a>
+        <a href="/tarjetas/#">Acerca de nosotros</a>
       </div>
     </div>
   );

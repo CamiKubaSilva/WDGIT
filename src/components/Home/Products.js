@@ -15,7 +15,7 @@ export function Products() {
       <hr></hr>
       </div>
       </div>
-      <div>
+      <div className="blockBottomH">
         <p className="text">
           Prepaid card, make purchases, pay bills, or get cash from ATMs. Saved
           coins and get access to lot of benefits
@@ -25,7 +25,9 @@ export function Products() {
             <img className="img1" src={girl} alt="card" />
             <img className="card" src={card} alt="card" />
           </div>
-          <a href="/#" className="more">more information</a>
+          <div className="moreInfo">
+          <a className="aMore" href="/tarjetas"></a>
+          </div>
         </div>
       </div>
     </div>

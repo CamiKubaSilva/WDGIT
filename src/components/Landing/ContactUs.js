@@ -15,7 +15,7 @@ export function ContactUs() {
         <h1>Tu ayuda. Nuestro compromiso!</h1>
         <h2>Mientras acumulás monedas, contribuís a una causa social!</h2>
         <div className="href">
-        <a href="/#">conocé más</a>
+        <a href="/tarjetas/#">conocé más</a>
         </div>
       </div>
       </div>

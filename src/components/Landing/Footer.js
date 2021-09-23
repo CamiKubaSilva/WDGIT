@@ -8,41 +8,41 @@ export function Footer() {
       <div className="row">
       <div className = "column4">
       <h3>Tarjetas</h3>
-      <a href="/#">Plans</a>
-      <a href="/#">Compare</a>
-      <a href="/#">Open</a>
-      <a href="/#">Payments</a>
-      <a href="/#">Transfers</a>
-      <a href="/#">Cashback</a>
-      <a href="/#">Withdraw</a>
-      <a href="/#">ATM</a>
+      <a href="/tarjetas/#">Plans</a>
+      <a href="/tarjetas/#">Compare</a>
+      <a href="/tarjetas/#">Open</a>
+      <a href="/tarjetas/#">Payments</a>
+      <a href="/tarjetas/#">Transfers</a>
+      <a href="/tarjetas/#">Cashback</a>
+      <a href="/tarjetas/#">Withdraw</a>
+      <a href="/tarjetas/#">ATM</a>
       </div>
       <div className = "column4">
       <h3>Rewards</h3>
-      <a href="/#">Benefits - Entry level</a>
-      <a href="/#">Benefits - Std level</a>
-      <a href="/#">Benefits - Premium level</a>
-      <a href="/#">Benefits - Metal level</a>
+      <a href="/tarjetas/#">Benefits - Entry level</a>
+      <a href="/tarjetas/#">Benefits - Std level</a>
+      <a href="/tarjetas/#">Benefits - Premium level</a>
+      <a href="/tarjetas/#">Benefits - Metal level</a>
       <h3>Give it back</h3>
-      <a href="/#">Contribuye junto a nosotros</a>
-      <a href="/#">Tu proyecto social</a>
-      <a href="/#">Hace crecer tu ayuda</a>
+      <a href="/tarjetas/#">Contribuye junto a nosotros</a>
+      <a href="/tarjetas/#">Tu proyecto social</a>
+      <a href="/tarjetas/#">Hace crecer tu ayuda</a>
       </div>
       <div className = "column4">
       <h3>Compañia</h3>
-      <a href="/#">About us</a>
-      <a href="/#">Leadership</a>
-      <a href="/#">Diversity and inclusion</a>
-      <a href="/#">Careers</a>
-      <a href="/#">Blog</a>
-      <a href="/#">News</a>
+      <a href="/tarjetas/#">About us</a>
+      <a href="/tarjetas/#">Leadership</a>
+      <a href="/tarjetas/#">Diversity and inclusion</a>
+      <a href="/tarjetas/#">Careers</a>
+      <a href="/tarjetas/#">Blog</a>
+      <a href="/tarjetas/#">News</a>
       </div>
       <div className = "column4">
       <h3>Preguntas</h3>
-      <a href="/#">Customer help</a>
-      <a href="/#">Community</a>
-      <a href="/#">Contact</a>
-      <a href="/#">Financial Statements</a>
+      <a href="/tarjetas/#">Customer help</a>
+      <a href="/tarjetas/#">Community</a>
+      <a href="/tarjetas/#">Contact</a>
+      <a href="/tarjetas/#">Financial Statements</a>
       </div>
       </div>
       </div>
