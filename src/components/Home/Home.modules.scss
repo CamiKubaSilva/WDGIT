@@ -551,13 +551,20 @@ $fontSemiBold: "MyriadPro-Semibold";
 
     .blockBottomH{
       .more{
+        .cardImg{
+          padding-top: 10vw;
+          width: 100%;
+          .card{
+            width: 100%;
+          }
+        }
         .moreInfo{
           display: flex;
           align-items: center;
           position: relative;
           z-index: 3;
-          left: 50vw;
-          top: 6.5vw;
+          left: 55vw;
+          top: 1.5vw;
           background-color: #642e8d;
           border: none;
           border-radius: 0.4vw;
@@ -622,21 +629,6 @@ $fontSemiBold: "MyriadPro-Semibold";
 
   .img1{
     display:none;
-  }
-
-  .more{
-    a{
-      display: flex;
-      padding-top: 20vw;
-      justify-content: flex-end;
-    }
-    .cardImg{
-      .card{
-        display: flex;
-        padding-top: 20vw;
-        width: 100%;
-      }
-    }
   }
 
   .form{
