@@ -26,7 +26,7 @@ export function Products() {
             <img className="card" src={card} alt="card" />
           </div>
           <div className="moreInfo">
-          <a className="aMore" href="/tarjetas"></a>
+          <a className="aMore" href="/tarjetas">Get Started</a>
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   .nav {
     display: flex;
     width:91.1%;
-    @media only screen and (max-width: 1366px) and (min-width: 376px) {
+    @media only screen and (max-width: 1366px) and (min-width: 0px) {
       height: 5vw;
     }
     font-size: 1.2vw;
@@ -128,7 +128,7 @@ $fontSemiBold: "MyriadPro-Semibold";
 
       .eng {
         display: flex;
-        height: 3.5vw;
+        height: 3vw;
         width: 3vw;
         border-radius: 100%;
         background-color: red;
@@ -818,7 +818,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   }
 }
 
-@media only screen and (max-width: 1366px) and (min-width: 375px) {
+@media only screen and (max-width: 1366px) and (min-width: 500px) {
   .smallVioletDivL {
     display: flex;
     width: 47%;
@@ -841,7 +841,7 @@ $fontSemiBold: "MyriadPro-Semibold";
   }
 }
 
-@media only screen and (max-width: 500px) and (min-width: 200px){
+@media only screen and (max-width: 500px) and (min-width: 0px){
   .navBarL{
     display: flex;
     position: relative;
